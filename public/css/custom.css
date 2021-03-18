@@ -1,0 +1,236 @@
+
+body{
+	background-color: white;
+}
+#app{
+	min-height: 100vh
+}
+
+#main{
+	min-height: 85vh;
+}
+
+.navbar-nav .nav-item .nav-link{
+	font-family: 'Poppins', sans-serif;
+	color: #000000;
+}
+nav{
+	box-shadow: -2px 11px 13px -15px rgb(52 144 220);
+}
+.user-profile .user-name{
+	color: #007BFF;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.user-profile .user-name:hover{
+	cursor: pointer;
+}
+.user-name{
+	margin-bottom: 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+	color: #3490dc;
+}
+
+.dropdown-item.active, .dropdown-item:active{
+	background-color: #3490dc;
+	color: #fff;
+}
+.dropdown-item:hover, .dropdown-item:focus{
+	background-color: #3490dc;
+	color: #fff;
+}
+.router-link-exact-active{
+	color: #3490dc!important;
+}
+
+#entry-form .form-control-sm {
+    height: calc(1em + 0.5rem + 2px);
+    padding: 2px 3px;
+    line-height: 1.5;
+    border-radius: 0;
+}
+.form-row label {
+	font-size: 0.8000rem;
+}
+.form-row{
+	background-color: #adb5bd54;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.card-header{
+	padding: 0.25rem 1.25rem;
+	font-size: 1rem
+}
+.table-sm th, .table-sm td {
+    padding: 0.2rem;
+}
+#entrytable{
+	overflow: scroll;
+    max-height: 50vh;
+}
+#entrytable {
+    padding: 0.25rem;
+}
+
+#entrytable table {
+	font-size: 80%;
+}
+
+.pagination {
+	justify-content: center!important;
+	margin-bottom: 0px;
+}
+.page-item .page-link {
+	padding: 0.25rem 0.75rem;
+}
+.rem1{
+	font-size: 1rem;
+}
+.pointer{
+	cursor: pointer;
+}
+.act_inact .router-link-exact-active{
+	background-color: #38c172;
+	color: #fff!important;
+}
+.modal-header{
+	border-top: 3px solid #3490dc;
+}
+.main-card {
+	border-top: 3px solid #3490dc;
+}
+
+
+.small-veu-select .vs__selected-options input{
+    border-radius: 0px;
+}
+
+.small-veu-select .vs__dropdown-toggle{
+	border-radius: 0px;
+	background-color: #FFF;
+	padding: 0 0 0;
+}
+.small-veu-select .vs__search{
+	border: 0px solid transparent;
+}
+.small-veu-select .vs__actions{
+    padding: 0px 1px 0 1px;
+}
+
+
+.small-veu-select .vs__selected {
+	font-size: 90%;
+    border-radius: 0px;
+    line-height: 1.4;
+    margin: 0px 0px 0;
+    padding: 0 0;
+}
+.table_input{
+	border: none;
+	text-align: center;
+	width: 100%;
+}
+.bg-light-color{
+	background-color: #3490dc47;
+}
+.table-hover tbody tr:hover {
+    background-color: #3490dc66;
+}
+
+#customerview th, #customerview td{
+	padding: 0;
+}
+
+.vdp-datepicker input{
+    border: none;
+    width: 100%;
+}
+
+.user-options .router-link-exact-active:hover{
+	color: #fff!important;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px){
+	#fgdate{
+		width: 7%;
+	}
+	#fgtype{
+		width: 7%;
+	}
+	#fgledger{
+		width: 10%;
+	}
+	#fgproduct{
+		width: 10%;
+	}
+	#fgsize{
+		width: 5%;
+	}
+	#fgqty{
+		width: 7%;
+	}
+	#fgprice{
+		width: 8%;
+	}
+	#fgdebit{
+		width: 8%;
+	}
+	#fgcredit{
+		width: 8%;
+	}
+	#fgchalan{
+		width: 7%;
+	}
+	#fgvehicle{
+		width: 8%;
+	}
+	#fglocation{
+		width: 7%;
+	}
+	#fgdesc{
+		width: 7%;
+	}
+}
+
+#fgacac{
+	width: 20%;
+}
+#fgdebit_pay{
+	width: 10%;
+}
+#fgcredit_pay{
+	width: 10%;
+}
+#fglocation_pay{
+	width: 15%;
+}
+#fgdesc_pay{
+	width: 15%;
+}
+
+
+
+
+@media (min-width: 768px){
+	.navbar-expand-md .navbar-nav .nav-link {
+	    padding-right: 1rem;
+	    padding-left: 1rem;
+	}
+}
+
